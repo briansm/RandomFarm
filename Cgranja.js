@@ -43,7 +43,23 @@ vaca.imagen=new Image();
 vaca.imagen.src=vaca.url;
 vaca.imagen.addEventListener("load",dibvaca);
 
-
+//funciones carga de imagenes
+function dibfondo(){
+  fond.loadOk=true;
+  dibujar();
+}
+function dibcerdo(){
+  cerdo.loadOk=true;
+  dibujar();
+}
+function dibpollo(){
+  pollo.loadOk=true;
+  dibujar();
+}
+function dibvaca(){
+  vaca.loadOk=true;
+  dibujar();
+}
 
 
 //funcion dibujar
