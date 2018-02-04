@@ -64,5 +64,7 @@ function dibvaca(){
 
 //funcion dibujar
 function dibujar(){
-
+  if(fond.loadOk==true){
+    papel.drawImage(fond.imagen,0,0);
+  }
 }
