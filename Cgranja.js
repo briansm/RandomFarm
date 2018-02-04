@@ -67,4 +67,24 @@ function dibujar(){
   if(fond.loadOk==true){
     papel.drawImage(fond.imagen,0,0);
   }
+  if(cerdo.loadOk==true){
+    for(var v=0;v<4;v++){
+    var x=randm(0,420);
+    var y=randm(0,420);
+    papel.drawImage(cerdo.imagen,x,y);
+    }
+  }
+  if(pollo.loadOk==true){
+    for(var v=0;v<10;v++){
+    var x=randm(0,420);
+    var y=randm(0,420);
+    papel.drawImage(pollo.imagen,x,y);
+      }
+    }
+  if(vaca.loadOk==true){
+    var x=randm(0,420);
+    var y=randm(0,420);
+    papel.drawImage(vaca.imagen,x,y);
+
+    }
 }
